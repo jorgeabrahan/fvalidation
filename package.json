@@ -5,7 +5,8 @@
   "main": "fvalidation.js",
   "scripts": {
     "serve": "webpack-dev-server",
-    "build": "webpack -w",
+    "build": "webpack",
+    "w:build": "webpack -w",
     "test": "jest"
   },
   "keywords": [
