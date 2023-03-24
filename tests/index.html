@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <script type="module" defer src="./validation.mjs"></script>
+    <script type="module" defer src="./validate.mjs"></script>
+  </head>
+  <body>
+    <form id="frmLogin">
+      <label for="username">Name:</label>
+      <input type="text" name="username" id="username" />
+      <label for="mail">Email address:</label>
+      <input type="email" name="mail" id="mail" />
+      <label for="userkey">Password:</label>
+      <input type="password" name="userkey" id="userkey" />
+      <button type="submit">Login</button>
+    </form>
+  </body>
+</html>
