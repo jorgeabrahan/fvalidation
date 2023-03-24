@@ -20,7 +20,7 @@ module.exports = {
   output: {
     publicPath: './',
     filename: 'fvalidation.js',
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, './'),
     libraryTarget: 'umd',
     library: 'fvalidation',
     umdNamedDefine: true
